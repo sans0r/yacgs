@@ -1,0 +1,120 @@
+/* Stylefile for yacgs demo */
+
+body {
+	color: #eaeaea;
+	font-size: 1.3em;
+	line-height: 1.5;
+	background-color: #6d695c;
+	/* http://lea.verou.me/css3patterns/#argyle */
+	background-image:
+		repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+		repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+		linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+		linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+	background-size: 70px 120px;;
+}
+#wrap {
+	margin: 0px 20px 0px 20px;
+	padding-bottom: 30px;
+}
+h1 { font-size: 2em; text-align: center;}
+h2 { font-size: 1.75em; }
+.button{
+	background: #3198ff;
+	border-radius: 7px;
+	padding: 5px;
+	display: block;
+	border: 1px solid rgba(0,0,0,.2);
+	line-height: 2;
+	margin-bottom: 10px;
+}
+.button a{
+	display: block;
+	text-decoration: none;
+	font-size: 0.8em;
+	text-align: center;
+	color: #ffffff;
+	text-shadow:1px 1px 1px #000000;
+}
+.mark {
+	background: rgba(0,0,0,.3);
+	border-radius: 7px;
+	padding: 3px;
+}
+.blue {color: #1489ff;}
+.code { font-size: 0.75em; vertical-align: baseline;}
+code {
+	background: rgba(0,0,0,.7);
+	border-radius: 5px;
+	width: 100%;
+	display: block;
+	
+	font-size: 0.75em;
+}
+.demo {
+	border-radius: 5px;
+	background: #222222;
+	color: #1489ff;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+.demo1 {
+	background: #444444;
+	color: #1489ff;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+.demo2 {
+	background: #666666;
+	color: #1489ff;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.footer {
+	background: #625e53;
+	padding: 20px 50px 15px 50px;
+	width: auto;
+	font-size: 0.75em;
+	text-align:  center;
+}
+.footer a{
+	text-decoration:  none;
+	color: #eaeaea;
+}
+.footer li{
+	list-style: none;
+}
+.footer h3{
+	font-size: 1.25em;
+}
+.footer .left{
+	width: 32%;
+	text-align: left;
+}
+.footer .right{
+	width: 32%;
+	text-align: right;
+}
+.footer .right img {
+	display: inline-block;
+	border: 1px solid rgba(0,0,0,0.25);
+	border-radius: 33px;
+	-webkit-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 1);
+	box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 1);
+}
+.avatar{
+	border-radius: 80px;
+	border: 1px solid rgba(0,0,0,0.25);
+	-webkit-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 1);
+	box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 1);
+	margin-bottom: 10px;
+}
+.footer .blue { color: #1489ff; }

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>yet another css grid system</title>
+ <meta charset="utf-8"/>
+ <link rel="stylesheet" href="yacgs.css">
+ <link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div class="container">
+		<div id="wrap">
+			<h1>Yet another CSS grid system &mdash; yacgs.css</h1>
+			<div class="row">
+				<div class="one-of-five">
+					<div class="button">
+						<a href="https://github.com/sans0r/yacgs">Download on Github</a>
+					</div>
+				</div>
+				<div class="four-of-five">
+					<p><span class="mark">Yacgs.css</span> is a very easy to use CSS framework to use a responsive grid on your website. <span class="mark">Yacgs.css</span> provides only the grid in 100% CSS, no Javascript support required.</p>
+					<h2>Usage</h2>
+					<p><span class="mark">Yacgs.css</span> most important feature is his usabilty. Let me explain it:</p>
+					<p>First at all you create your Basic HTML file, then add yacgs.css in the <span class="mark code">&lthead&gt</span> of your site.</p>
+					<code>
+						&ltlink rel="stylesheet" href="yacgs.css"&gt
+					</code>
+					<p>Then you can write your site content into a <span class="mark code">&ltdiv&gt</span> with the class"<span class="mark blue"> .container</span> (or you use another <span class="mark code">&ltdiv&gt</span> with your own typical class/id)</p>
+					<BR>
+					<p>The grid use simple nativ englisch expressions, e.g. <span class="mark blue">.one, .one-of-two, .three-of-four, two-of-six</span>, it's very simple to use. All this class names follow a system:</p>
+					<div class="one demo">.one</div><BR>
+					<div class="one-of-two demo">.one-of-two</div><BR>
+					<div class="one-of-three demo">.one-of-three</div><BR>
+					<div class="two-of-three demo">.two-of-three</div><BR>
+					<div class="one-of-four demo">.one-of-four</div><BR>
+					<div class="two-of-four demo">.two-of-four</div><BR>
+					<div class="three-of-four demo">.three-of-four</div><BR>
+					<div class="one-of-five demo">.one-of-five</div><BR>
+					<div class="two-of-five demo">.two-of-five</div><BR>
+					<div class="three-of-five demo">.three-of-five</div><BR>
+					<div class="four-of-five demo">.four-of-five</div><BR>
+					<div class="one-of-six demo">.one-of-six</div><BR>
+					<div class="two-of-six demo">.two-of-six</div><BR>
+					<div class="three-of-six demo">.three-of-six</div><BR>
+					<div class="four-of-six demo">.four-of-six</div><BR>
+					<div class="five-of-six demo">.five-of-six</div><BR>
+					<p>You can combine some classes, like:</p>
+					<div class="two-of-six demo">.two-of-six</div><div class="one-of-six demo1">.one-of-six</div><div class="three-of-six demo2">.three-of-six</div>
+					<BR>
+					<div class="two-of-five demo">.two-of-five</div><div class="three-of-five demo1">.three-of-five</div>
+					<BR>
+					<div class="five-of-six demo">.five-of-six</div><div class="one-of-six demo1">.one-of-six</div>
+					<BR>
+					<p>Last but not least, to be sure that everything stays in the right place, pack a <span class="mark code">&ltdiv&gt</span> around with class <span class="mark blue">.row</span>. <BR>That's all folks.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row footer">
+			<div class="one-of-three left">
+				<h3>Kleinjung.tk</h3>
+				<ul>
+					<li><a class="blue" href="http://kleinjung.tk/about">About me</a></li>
+					<li><a class="blue" href="http://kleinjung.tk/projects">Other projects</a></li>
+				</ul>
+			</div>
+			<div class="one-of-three">
+				<h3>About me</h3>
+				<a href="http://kleinjung.tk/"><img class="avatar" src="http://www.gravatar.com/avatar/fc14e86c63ffc79d4e7e70464fa16e30" /></a>
+				<p>Hey, i'm Cedric Kleinjung,<BR>Student, hobby web designer and developer</p>
+				<p>check out my <a class="blue" href="http://kleinjung.tk/portfolio">portfolio</a></p>
+			</div>
+			<div class="one-of-three right">
+				<h3>Social Media</h3>
+				<ul>
+					<!-- use crisp icon set http://www.visualswirl.com/freebies/crisp-free-round-social-icon-set/ -->
+					<a href="https://twitter.com/ckleinjung"><img src="twitter.png"/></a>
+					<a href="https://facebook.com/kleinjung"><img src="facebook.png"/></a>
+					<a href="https://plus.google.com/u/0/105039975742305194370"><img src="googleplus.png"/></a>
+					<a href="mailto:web@kleinjung.tk"><img src="mail.png"/></a>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
